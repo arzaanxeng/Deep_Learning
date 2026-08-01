@@ -1,7 +1,7 @@
 # Neural Network From Scratch (NumPy)
 
 A fully connected neural network implemented from first principles using only **NumPy** — no PyTorch, TensorFlow, or Keras. Every component (forward propagation, backpropagation, gradient descent) is implemented and derived manually, then verified on the XOR problem, a classic example of a non-linearly separable dataset that a linear model cannot solve.
-
+![Training loss](assets/Neural_Network.png)
 ## Motivation
 
 Frameworks reduce training to two lines:
