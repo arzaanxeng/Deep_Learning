@@ -7,7 +7,6 @@
 
 ## 1. Math/optimization you should be able to derive, not just use
 
-- Chain rule → backprop (you have this)
 - Why plain SGD struggles → **Adam** (Kingma & Ba, 2014, *"Adam: A Method for Stochastic Optimization"*) — implement Adam's update rule by hand once, don't just call `torch.optim.Adam`
 - **Dropout** (Srivastava et al., 2014) and **Batch Norm** (Ioffe & Szegedy, 2015) — you've studied these conceptually; read the actual papers to see *why* they were proposed (internal covariate shift argument, later debated) — good critical-thinking exercise
 - **Layer Norm** (Ba et al., 2016) — matters because it's what transformers use instead of batch norm, and knowing *why* is a common interview question
@@ -88,4 +87,3 @@ Use **Papers With Code** to find the canonical paper + strongest follow-ups for 
 2. **Reimplement a ResNet block from scratch** on a small dataset (CIFAR-10 is fine) — cheap to run, cements section 2.
 3. **Pick LoRA as your first "real paper reproduction."** It's practical, cheap to run, and directly demonstrates you can go from paper → working code → written explanation — exactly the signal a professor doing ML/embedded work would want to see alongside Fire-Volt Green.
 
-Each of these, written up with a short README explaining *why* the paper's idea matters (not just that you ran the code), becomes outreach material — the same way you built out Fire-Volt Green's Technical_Overview.md.
